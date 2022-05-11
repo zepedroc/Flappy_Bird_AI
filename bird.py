@@ -1,6 +1,7 @@
 import pygame
 import os
 
+# doubling the size of the images
 BIRD_IMAGES = [pygame.transform.scale2x(pygame.image.load(os.path.join('imgs', 'bird1.png'))),
                pygame.transform.scale2x(pygame.image.load(
                    os.path.join('imgs', 'bird2.png'))),
