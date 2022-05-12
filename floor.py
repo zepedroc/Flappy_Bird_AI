@@ -1,8 +1,8 @@
-# doubling the size of the images
 import os
 import pygame
 
 
+# doubling the size of the images
 BASE_IMG = pygame.transform.scale2x(
     pygame.image.load(os.path.join('imgs', 'base.png')))
 
